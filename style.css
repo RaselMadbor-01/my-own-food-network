@@ -7,31 +7,31 @@ header {
   padding: 2px 5% 0 5%;
   background-color: #ffa500ad;
 }
-.header-icon {
-  width: 70%;
+.logo {
+  width: 60%;
 }
-.header-icon img {
+.logo img {
   height: 76px;
   padding: 5px;
   margin-left: 22px;
 }
-.header-item {
-  width: 30%;
+.link-item {
+  width: 40%;
 }
-.header-item ul {
+.link-item ul {
   display: flex;
   padding: 17px 0px 0px 25px;
 }
-.header-item ul li {
+.link-item ul li {
   list-style: none;
 }
-.header-item ul li a {
+.link-item ul li a {
   text-decoration: none;
-  padding: 8px;
+  padding: 20px;
   color: #fff;
   font-weight: 600;
 }
-.header-item ul li a:hover {
+.link-item ul li a:hover {
   background-color: #fff;
   color: #ffa500ad;
   border-radius: 5px;
@@ -72,7 +72,7 @@ p {
   background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
   border-radius: 100px;
 }
-.contact-section {
+.about-me-section {
   display: flex;
   height: 539px;
   background-image: url(images/shapes/Frame\ 59.jpg);
@@ -81,7 +81,7 @@ p {
   background-size: 100% 100%;
   margin-bottom: 20px;
 }
-#about-me-part {
+#about-me-img {
   height: 574px;
   position: relative;
   top: -37px;
@@ -93,7 +93,7 @@ h2 {
   color: #707070;
   padding-top: 8%;
 }
-.contact-me p {
+.about-me p {
   color: #000000b3;
   font-size: 18px;
   line-height: 25px;
@@ -116,60 +116,51 @@ h3 {
   margin: 0px 205px;
   text-align: center;
 }
-.middle-section {
+.card-item {
   display: flex;
 }
-.part-3 {
+.card {
   width: 30%;
-}
-.recipe-item-list {
   background: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
   padding: 10px;
   margin: 3%;
 }
-.recipe-item-list img {
+.card img {
   max-width: 100%;
 }
 h4 {
   font-size: 23px;
   margin: 30px 0 15px 0;
 }
-.recipe-item-list p {
+.card p {
   font-size: 17px;
   line-height: 25px;
   margin: 5px 0 20px 0;
-  text-align: inherit;
+  text-align: left;
 }
 
 .delivery-section {
   display: flex;
-  padding: 0 5%;
-  padding-bottom: 2%;
 }
-.delivery-part h2 {
-  color: #000;
-  padding: 0;
-}
-.delivery-part p {
-  font-size: 18px;
-  margin: 0;
-  padding-bottom: 20px;
-}
-.delivery-part h5 {
-  font-size: 17px;
-  padding-bottom: 20px;
-}
-#delivery-icon {
+#delivery-img {
   max-width: 100%;
   height: 600px;
   position: relative;
   top: -27px;
 }
-
-#delivery-item {
-  max-width: 100%;
+#delivery-h2 {
+  padding: 0;
+}
+#delivery-p {
+  margin: 0;
+  font-size: 18px;
+  padding-right:14%;
+}
+h5 {
+  font-size: 17px;
+  padding-bottom: 20px;
 }
 
 .social-media-part {
